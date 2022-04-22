@@ -1,0 +1,35 @@
+import { AbstractEntityEmpresa } from 'src/common/dto/abstract-entity-empresa.dto';
+import { Seccion } from './seccion.entity';
+import { Status } from 'src/common/constants/index';
+export declare class Campo extends AbstractEntityEmpresa {
+    id: number;
+    campo: string;
+    tipo: string;
+    label: string;
+    tooltip: string;
+    orden: number;
+    iop: string;
+    desabilitado: boolean;
+    valorDefecto: string;
+    validacion: string[];
+    parametrica: string;
+    parametricaText: string;
+    campoPadre: string;
+    campoHijo: string;
+    observable: boolean;
+    filtro: string;
+    maxMinFecha: Record<string, unknown>;
+    size: number;
+    tabla: string;
+    cantidadMax: number;
+    documentoSoporte: boolean;
+    codigoTipoDocumento: string;
+    criterioOpcional: string;
+    codigoTipoPublicacion: string;
+    kardex: Record<string, unknown>;
+    grupoParametrica: string;
+    estado: Status;
+    idSeccion: number;
+    seccion: Seccion;
+    valor: string;
+}

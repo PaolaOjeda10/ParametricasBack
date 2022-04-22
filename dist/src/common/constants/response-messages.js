@@ -1,0 +1,37 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Messages = void 0;
+var Messages;
+(function (Messages) {
+    Messages["EXCEPTION_BAD_REQUEST"] = "La solicitud no se puede completar, existen errores de validaci\u00F3n.";
+    Messages["EXCEPTION_UNAUTHORIZED"] = "Usuario no autorizado";
+    Messages["EXCEPTION_FORBIDDEN"] = "No tienes permisos para realizar la acci\u00F3n sobre el recurso solicitado.";
+    Messages["EXCEPTION_NOT_FOUND"] = "Recurso no encontrado";
+    Messages["EXCEPTION_PRECONDITION_FAILED"] = "La solicitud no cumple una condici\u00F3n previa.";
+    Messages["EXCEPTION_DEFAULT"] = "Ocurrio un error desconocido";
+    Messages["EXCEPTION_REFRESH_TOKEN_NOT_FOUND"] = "Sesi\u00F3n finalizada.";
+    Messages["EXCEPTION_REFRESH_TOKEN_EXPIRED"] = "Sesi\u00F3n expirada por inactividad.";
+    Messages["EXCEPTION_CREATE"] = "Ocurrio un error al crear el Reg\u00EDstro!";
+    Messages["SUCCESS_DEFAULT"] = "ok";
+    Messages["SUCCESS_LIST"] = "Registro(s) obtenido(s) con exito!";
+    Messages["SUCCESS_CREATE"] = "Registro creado con exito!";
+    Messages["SUCCESS_UPDATE"] = "Registro actualizado con exito!";
+    Messages["SUCCESS_DELETE"] = "Registro eliminado con exito!";
+    Messages["SUCCESS_RESTART_PASSWORD"] = "Restauraci\u00F3n de contrase\u00F1a exitosa!!!";
+    Messages["SUCCESS_ACCOUNT_UNLOCK"] = "Cuenta desbloqueada exitosamente.";
+    Messages["INVALID_USER_CREDENTIALS"] = "Usuario o contrase\u00F1a invalidos.";
+    Messages["INVALID_USER"] = "El usuario no existe o no contiene un estado valido.";
+    Messages["INVALID_CREDENTIALS"] = "Credenciales incorrectas!!!";
+    Messages["INACTIVE_USER"] = "El usuario se encuentra INACTIVO";
+    Messages["INACTIVE_PERSON"] = "El registro de persona se encuentra INACTIVO";
+    Messages["INVALID_PASSWORD_SCORE"] = "La contrase\u00F1a nueva no cumple el nivel de seguridad necesario.";
+    Messages["USER_BLOCKED"] = "Usuario bloqueado por muchos intentos de sesi\u00F3n fallidos, revise su correo electr\u00F3nico.";
+    Messages["SUBJECT_EMAIL_ACCOUNT_ACTIVE"] = "Generaci\u00F3n de credenciales.";
+    Messages["SUBJECT_EMAIL_ACCOUNT_RESET"] = "Restauraci\u00F3n de contrase\u00F1a.";
+    Messages["SUBJECT_EMAIL_ACCOUNT_LOCKED"] = "Bloqueo de cuenta temporal.";
+    Messages["EXISTING_COMPANY"] = "Ya existe una empresa con el n\u00FAmero de NIT indicado.";
+    Messages["EXISTING_USER"] = "Ya existe un usuario registrado con el mismo n\u00FAmero de documento.";
+    Messages["EXISTING_EMAIL"] = "Ya existe un usuario registrado con el mismo correo electr\u00F3nico.";
+    Messages["INVALID_RECORD"] = "El registro no existe o no contiene un estado v\u00E1lido";
+})(Messages = exports.Messages || (exports.Messages = {}));
+//# sourceMappingURL=response-messages.js.map
